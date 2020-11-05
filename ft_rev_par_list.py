@@ -13,7 +13,7 @@ def ft_rev_par_list(mass):
         if per < dlin:
             spisok.append(mass[per + 1])
             spisok.append(mass[per])
-            per +=2
+            per += 2
         else:
             per += 1000
     return ft_rev_list(spisok)

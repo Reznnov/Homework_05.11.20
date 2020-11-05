@@ -4,4 +4,3 @@ def ft_positive_list(mass):
         if i > 0:
             col +=  1
     return col
-    

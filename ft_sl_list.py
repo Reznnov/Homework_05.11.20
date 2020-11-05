@@ -6,4 +6,3 @@ def ft_sl_list(mass):
             col += 1
         vrem = i
     return col
-        

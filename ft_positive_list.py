@@ -1,6 +1,6 @@
 def ft_positive_list(mass):
-    col = 0
+    c = 0
     for i in mass:
-        if i >= 0:
-            col +=  1
-    return col
+        if i > 0:
+            c += 1
+    return c

@@ -1,6 +1,7 @@
 def ft_positive_list(mass):
-    spisok = []
+    col = 0
     for i in mass:
         if i >= 0:
-            spisok.append(i)
-    return spisok
+            col +=  1
+    return col
+    
